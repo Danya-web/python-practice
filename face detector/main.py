@@ -5,7 +5,7 @@ layout = [
   [sg.Text('People in picture: 0', key = '')]
 ]
 
-sg.Window('Face Detector',layout).read()
+window = sg.Window('Face Detector',layout).read()
 
 while True:
   event, values = window.read()
